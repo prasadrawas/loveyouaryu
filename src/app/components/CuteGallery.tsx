@@ -27,7 +27,7 @@ export function CuteGallery() {
 
     // Dynamically generate photo objects for 1.jpeg to 10.jpeg
     const photos = Array.from({ length: 16}, (_, i) => ({
-        url: `src/assets/${i + 1}.jpeg`,
+        url: `https://prasadrawas.github.io/loveyouaryu/assets/${i + 1}.jpeg`,
         caption: captions[i], // You can customize captions
         rotation: Math.floor(Math.random() * 9) - 4, // random rotation between -4 and +4
     }));
